@@ -34,9 +34,9 @@ while i<5:
     print('_'*15,) 
     i+=1
 if user_score > AI_score:  
-    print (f'user won with score: {user_score}')    
+    print (f ' user won with score : {user_score}')    
 elif user_score < AI_score:
     print(f'ai won with score: {AI_score}')
 else:
-    print(f'It\'s a Tie. score:{user_score}')
+    print(f'Its a Tie. score:{user_score}')
     
